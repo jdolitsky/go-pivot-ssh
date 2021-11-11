@@ -10,10 +10,11 @@ prompted to enter password.
 
 ## How to use
 
-Build and install:
+Install (requires Go):
 ```
-go build -o pivot-ssh .
-mv ./pivot-ssh /usr/local/bin
+git clone https://github.com/jdolitsky/go-pivot-ssh.git 2>/dev/null && \
+  (cd go-pivot-ssh && go build -o /usr/local/bin/pivot-ssh .) && \
+  rm -rf go-pivot-ssh/
 ```
 
 Usage:
