@@ -32,7 +32,7 @@ In your `~/.ssh/config`, add info about the host:
 $ cat ~/.ssh/config
 Host 10.11.1.123
 	User myuser
-    Port 2222
+	Port 2222
 ```
 
 Then start a local listener at `127.0.0.1:8080` which
